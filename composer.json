@@ -1,0 +1,29 @@
+{
+    "name": "cordoval/colophon",
+    "description": "colophon for your projects",
+    "keywords": [
+        "colophon",
+        "cli",
+        "ascii",
+        "graphics"
+    ],
+    "homepage": "http://github.com/cordoval/colophon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "project",
+            "email": "cordoval@gmail.com",
+            "homepage": "http://github.com/cordoval/colophon"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/console": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Colophon": "lib/"
+        }
+    },
+    "bin": ["bin/colophon"]
+}

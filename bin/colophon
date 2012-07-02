@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+# bin/colophon
+<?php
+
+use Colophon\Command\PrintCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new PrintCommand);
+$application->run();
