@@ -1,6 +1,6 @@
 {
     "name": "cordoval/colophon",
-    "description": "colophon for your projects",
+    "description": "It spits out an ascii converted image from internet upon composer installation/update success",
     "keywords": [
         "colophon",
         "cli",
